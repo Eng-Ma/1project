@@ -1,0 +1,50 @@
+html, .container, .row, .copyright-text, input {
+    direction: rtl;
+    text-align: right;
+}
+
+.owl-carousel {
+    direction: ltr;
+}
+
+.search-property .property-search-form .form-group {
+    margin-right: 0;
+    margin-left: 21px;
+}
+
+.search-property .property-search-form .form-group:last-child {
+    margin-left: 0;
+}
+
+select {
+    background-position: 5% 50%;
+}
+
+.product-plus-icon, .footer-wrap .footer-bottom .social-profile {
+    text-align: left;
+}
+
+.property-card.style4 .property-img .property-status {
+    left: unset;
+    right: 25px;
+}
+
+.footer-wrap .footer-widget .footer-widget-title:after {
+    left: unset;
+    right: 0;
+}
+
+#signIn .modal-content .modal-header .btn-close, #signUp .modal-content .modal-header .btn-close {
+    right: unset;
+    left: 15px;
+}
+
+.checkbox label:before {
+    right: 0;
+    left: unset;
+}
+
+.checkbox label {
+    padding-left: 0;
+    padding-right: 25px;
+}
